@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\TestPro\\DataEntities\\DataEntities.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\Projects\\TestPro\\API\\DataEntities\\DataEntities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\TestPro\\DataEntities\\DataEntities.csproj": {
+    "C:\\Users\\Admin\\Desktop\\Projects\\TestPro\\API\\DataEntities\\DataEntities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\TestPro\\DataEntities\\DataEntities.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Projects\\TestPro\\API\\DataEntities\\DataEntities.csproj",
         "projectName": "DataEntities",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\TestPro\\DataEntities\\DataEntities.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\Projects\\TestPro\\API\\DataEntities\\DataEntities.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\TestPro\\DataEntities\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\Projects\\TestPro\\API\\DataEntities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

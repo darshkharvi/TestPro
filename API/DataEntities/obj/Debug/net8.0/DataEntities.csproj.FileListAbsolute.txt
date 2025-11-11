@@ -9,3 +9,15 @@ C:\Users\Admin\source\repos\TestPro\DataEntities\obj\Debug\net8.0\DataEntities.d
 C:\Users\Admin\source\repos\TestPro\DataEntities\obj\Debug\net8.0\refint\DataEntities.dll
 C:\Users\Admin\source\repos\TestPro\DataEntities\obj\Debug\net8.0\DataEntities.pdb
 C:\Users\Admin\source\repos\TestPro\DataEntities\obj\Debug\net8.0\ref\DataEntities.dll
+C:\Users\Admin\Desktop\Projects\TestPro\API\DataEntities\bin\Debug\net8.0\DataEntities.deps.json
+C:\Users\Admin\Desktop\Projects\TestPro\API\DataEntities\bin\Debug\net8.0\DataEntities.dll
+C:\Users\Admin\Desktop\Projects\TestPro\API\DataEntities\bin\Debug\net8.0\DataEntities.pdb
+C:\Users\Admin\Desktop\Projects\TestPro\API\DataEntities\obj\Debug\net8.0\DataEntities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Projects\TestPro\API\DataEntities\obj\Debug\net8.0\DataEntities.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Projects\TestPro\API\DataEntities\obj\Debug\net8.0\DataEntities.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Projects\TestPro\API\DataEntities\obj\Debug\net8.0\DataEntities.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Projects\TestPro\API\DataEntities\obj\Debug\net8.0\DataEntities.sourcelink.json
+C:\Users\Admin\Desktop\Projects\TestPro\API\DataEntities\obj\Debug\net8.0\DataEntities.dll
+C:\Users\Admin\Desktop\Projects\TestPro\API\DataEntities\obj\Debug\net8.0\refint\DataEntities.dll
+C:\Users\Admin\Desktop\Projects\TestPro\API\DataEntities\obj\Debug\net8.0\DataEntities.pdb
+C:\Users\Admin\Desktop\Projects\TestPro\API\DataEntities\obj\Debug\net8.0\ref\DataEntities.dll

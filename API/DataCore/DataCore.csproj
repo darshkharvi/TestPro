@@ -14,9 +14,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DataEntities\DataEntities.csproj" />
-    <ProjectReference Include="..\DataModels\DataModels.csproj" />
-    <ProjectReference Include="..\DataServices\DataServices.csproj" />
-    <ProjectReference Include="..\TestPro\TestPro.csproj" />
   </ItemGroup>
 
 </Project>
