@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\TestPro\DataServices\bin\Debug\net8.0\DataServices.deps.json
+C:\Users\Admin\source\repos\TestPro\DataServices\bin\Debug\net8.0\DataServices.dll
+C:\Users\Admin\source\repos\TestPro\DataServices\bin\Debug\net8.0\DataServices.pdb
+C:\Users\Admin\source\repos\TestPro\DataServices\obj\Debug\net8.0\DataServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\TestPro\DataServices\obj\Debug\net8.0\DataServices.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\TestPro\DataServices\obj\Debug\net8.0\DataServices.AssemblyInfo.cs
+C:\Users\Admin\source\repos\TestPro\DataServices\obj\Debug\net8.0\DataServices.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\TestPro\DataServices\obj\Debug\net8.0\DataServices.dll
+C:\Users\Admin\source\repos\TestPro\DataServices\obj\Debug\net8.0\refint\DataServices.dll
+C:\Users\Admin\source\repos\TestPro\DataServices\obj\Debug\net8.0\DataServices.pdb
+C:\Users\Admin\source\repos\TestPro\DataServices\obj\Debug\net8.0\ref\DataServices.dll
+C:\Users\Admin\source\repos\TestPro\DataServices\obj\Debug\net8.0\DataServices.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\TestPro\DataServices\bin\Debug\net8.0\DataEntities.dll
+C:\Users\Admin\source\repos\TestPro\DataServices\bin\Debug\net8.0\DataEntities.pdb
+C:\Users\Admin\source\repos\TestPro\DataServices\obj\Debug\net8.0\DataServ.27BC70E7.Up2Date

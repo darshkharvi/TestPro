@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\TestPro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2FF01B1-F08A-41D4-89C1-C18F0052CAC8}|DataModels\\DataModels.csproj|c:\\users\\admin\\source\\repos\\testpro\\datamodels\\designationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2FF01B1-F08A-41D4-89C1-C18F0052CAC8}|DataModels\\DataModels.csproj|solutionrelative:datamodels\\designationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{085D8611-1650-49D0-82F3-72C5306F1154}|DataEntities\\DataEntities.csproj|c:\\users\\admin\\source\\repos\\testpro\\dataentities\\designation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{085D8611-1650-49D0-82F3-72C5306F1154}|DataEntities\\DataEntities.csproj|solutionrelative:dataentities\\designation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DesignationModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TestPro\\DataModels\\DesignationModel.cs",
+              "RelativeDocumentMoniker": "DataModels\\DesignationModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TestPro\\DataModels\\DesignationModel.cs",
+              "RelativeToolTip": "DataModels\\DesignationModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T09:12:53.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Designation.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TestPro\\DataEntities\\Designation.cs",
+              "RelativeDocumentMoniker": "DataEntities\\Designation.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TestPro\\DataEntities\\Designation.cs",
+              "RelativeToolTip": "DataEntities\\Designation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T09:12:30.821Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
