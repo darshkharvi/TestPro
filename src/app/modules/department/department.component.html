@@ -1,1 +1,28 @@
-<p>department works!</p>
+<div class="container">
+<h1>Department Page</h1>
+
+<form [formGroup]="departmentForm" (ngSubmit)="onSubmit()">
+    <div>
+
+        <label>Title:</label>
+        <input type="text" formControlName="title" />
+            <div style="color:rgb(157, 255, 0);">
+                Title is required
+            </div>
+    </div>
+        
+    <button type="click on this" [disabled]="departmentForm.invalid">Add</button>
+
+</form>
+ 
+  <hr/>
+ 
+  <h3>Department List</h3>
+<ul>
+<li *ngFor="let d of department">
+
+      {{ d.id }}. <strong>{{ d.title }}</strong>
+</li>
+</ul> >
+</form>
+</div> 
