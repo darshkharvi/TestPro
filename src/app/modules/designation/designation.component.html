@@ -1,1 +1,33 @@
-<p>designation works!</p>
+<div class="container">
+<h2>Designation Page</h2>
+ 
+<form [formGroup]="designationForm" (ngSubmit)="onSubmit()">
+    <div>
+
+        <label>Title:</label>
+        <input type="text" formControlName="title" />
+            <div style="color:red;">
+                Title is required
+            </div>
+    </div>
+        
+    <div>
+        <label>Description:</label>
+        <input type="text" formControlName="description" />
+    </div>
+        
+    <button type="submit" [disabled]="designationForm.invalid">Add</button>
+
+</form>
+ 
+  <hr />
+ 
+  <h3>Designation List</h3>
+<ul>
+<li *ngFor="let d of designations">
+
+      {{ d.id }}. <strong>{{ d.title }}</strong> - {{ d.description }}
+</li>
+</ul>
+</div>
+ 
