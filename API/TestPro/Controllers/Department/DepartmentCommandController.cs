@@ -17,7 +17,7 @@ namespace TestPro.Controllers.Department
       _mediator = mediator;
     }
 
-    [HttpPost]
+    [HttpPost("adddepartment")]
     [ProducesResponseType(typeof(DepartmentModel), (int)HttpStatusCode.OK)]
     public async Task<IActionResult> CreateNewDepartment([FromBody] DepartmentModel department)
     {
