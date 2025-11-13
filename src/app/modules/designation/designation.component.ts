@@ -28,13 +28,23 @@ export class DesignationComponent implements OnInit {
     });
   }
  
-  onSubmit(): void {
-    if (this.designationForm.valid) {
-      const newDesignation: DesignationModel = this.designationForm.value; 
-      console.log('Form Data:', this.designationForm.value);
-      this.designationForm.reset();
-    } else {
-      this.designationForm.markAllAsTouched();
-    }
+ onSubmit(): void {
+  if (this.designationForm.valid) {
+    const newDesignation: DesignationModel = this.designationForm.value; 
+
+    this.designationService.addDesignation(newDesignation).subscribe({
+      next: (addedDesignation) => {
+        console.log('Added:', addedDesignation);
+        this.designations.push(addedDesignation); 
+        this.designationForm.reset();
+      },
+      error: (err) => {
+        console.error('Error adding designation:', err);
+      }
+    });
+  } else {
+    this.designationForm.markAllAsTouched();
   }
+}
+
 }
