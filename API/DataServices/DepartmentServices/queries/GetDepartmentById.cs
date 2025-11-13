@@ -11,7 +11,7 @@ namespace DataServices.DepartmentServices.queries
   public class GetDepartmentByIdHandler : IRequestHandler<GetDepartmentById, DepartmentModel>
   {
     private readonly ITestProUnitOfWork _context;
-    public GetDepartmentByIdHandler(ITestProUnitOfWork context)
+    public GetDepartmentByIdHandler(ITestProUnitOfWork context) 
     {
       _context = context;
     }
