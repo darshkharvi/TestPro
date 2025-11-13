@@ -29,13 +29,13 @@ namespace DataServices.DepartmentServices.queries
         return query.Select(c => new DepartmentModel
         {
           Id = c.Id,
-          Title = c.Title,
+          Title = c.Title 
         }).ToList();
       }
       catch (Exception ex)
       {
         throw ex;
-      }
+      } 
     }
   }
 }
