@@ -14,8 +14,12 @@ export class DepartmentServiceService {
 
   constructor(private httpclient: HttpClient) { }
 
+  public addDepartment(department: departmentModel): Observable<departmentModel> {
+    return this.httpclient.post<departmentModel>(this.departmentMethod+"api/DepartmentCommand/adddepartment",department);
+  }
+
   public getAllDepartment(): Observable<departmentModel[]> {
     return this.httpclient.get<departmentModel[]>(this.departmentMethod+"getalldepartment");
-
   }
+  
 }
