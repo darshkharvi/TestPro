@@ -13,6 +13,9 @@ export class DesignationServiceService {
 
   constructor(private httpclient: HttpClient) { }
 
+  public getAllDesignation(): Observable<DesignationModel[]> {
+      return this.httpclient.get<DesignationModel[]>(this.designationMethod+"api/DesignationQuery/getalldesignations");
+  }
 
   public addDesignation(designation: DesignationModel): Observable<DesignationModel> {
     return this.httpclient.post<DesignationModel>(this.designationMethod+"api/DesignationCommand/adddesignation",designation);

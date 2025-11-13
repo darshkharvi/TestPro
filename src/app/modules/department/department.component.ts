@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { departmentModel } from 'src/app/models/departmentModel';
+import { DepartmentServiceService } from 'src/app/services/department/department-service.service';
 
 @Component({
   selector: 'app-department',
@@ -9,28 +10,26 @@ import { departmentModel } from 'src/app/models/departmentModel';
 })
 export class DepartmentComponent implements OnInit {
 
+  departments:departmentModel[] = [];
   departmentForm!: FormGroup;
 
 constructor(
     private fb: FormBuilder,
-    // private designationService: DesignationService
+    private departmentService: DepartmentServiceService,
   ) {}
  
   ngOnInit(): void {
     this.departmentForm = this.fb.group({
       title: ['', Validators.required],
     });
- 
-    // Load existing designations
-    // this.designations = this.designationService.getDesignations();
+    this.departmentService.getAllDepartment().subscribe(d => {
+      this.departments = d;
+    });
   }
  
   onSubmit(): void {
     if (this.departmentForm.valid) {
       const newDesignation: departmentModel = this.departmentForm.value;
-      // this.designationService.addDesignation(newDesignation);
-      // this.designations = this.designationService.getDesignations();
- 
       console.log('Form Data:', this.departmentForm.value);
       this.departmentForm.reset();
     } else {

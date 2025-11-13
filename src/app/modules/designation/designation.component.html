@@ -1,33 +1,29 @@
 <div class="container">
-<h2>Designation Page</h2>
- 
-<form [formGroup]="designationForm" (ngSubmit)="onSubmit()">
-    <div>
+  <h1 class="page-title">Designation Page</h1>
 
-        <label>Title:</label>
-        <input type="text" formControlName="title" />
-            <div style="color:red;">
-                Title is required
-            </div>
+  <form [formGroup]="designationForm" (ngSubmit)="onSubmit()" class="app-form">
+    <div class="form-group">
+      <label for="title" class="form-label">Title:</label>
+      <input id="title" type="text" formControlName="title" class="form-control" />
+      <div *ngIf="designationForm.controls['title'].invalid && designationForm.controls['title'].touched" class="error-message">
+        Title is required
+      </div>
     </div>
-        
-    <div>
-        <label>Description:</label>
-        <input type="text" formControlName="description" />
-    </div>
-        
-    <button type="submit" [disabled]="designationForm.invalid">Add</button>
 
-</form>
- 
+    <div class="form-group">
+      <label for="description" class="form-label">Description:</label>
+      <input id="description" type="text" formControlName="description" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn-submit" [disabled]="designationForm.invalid">Add</button>
+  </form>
+
   <hr />
- 
-  <h3>Designation List</h3>
-<ul>
-<li *ngFor="let d of designations">
 
+  <h3 class="list-title">Designation List</h3>
+  <ul class="app-list">
+    <li *ngFor="let d of designations" class="list-item">
       {{ d.id }}. <strong>{{ d.title }}</strong> - {{ d.description }}
-</li>
-</ul>
+    </li>
+  </ul>
 </div>
- 

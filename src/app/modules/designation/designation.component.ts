@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { DesignationModel } from 'src/app/models/designationModel';
+import { DesignationServiceService } from 'src/app/services/designation/designation-service.service';
 
 @Component({
   selector: 'app-designation',
@@ -14,7 +15,7 @@ export class DesignationComponent implements OnInit {
  
   constructor(
     private fb: FormBuilder,
-    // private designationService: DesignationService
+    private designationService: DesignationServiceService,
   ) {}
  
   ngOnInit(): void {
@@ -22,17 +23,14 @@ export class DesignationComponent implements OnInit {
       title: ['', Validators.required],
       description: ['']
     });
- 
-    // Load existing designations
-    // this.designations = this.designationService.getDesignations();
+    this.designationService.getAllDesignation().subscribe(d => {
+      this.designations = d;
+    });
   }
  
   onSubmit(): void {
     if (this.designationForm.valid) {
-      const newDesignation: DesignationModel = this.designationForm.value;
-      // this.designationService.addDesignation(newDesignation);
-      // this.designations = this.designationService.getDesignations();
- 
+      const newDesignation: DesignationModel = this.designationForm.value; 
       console.log('Form Data:', this.designationForm.value);
       this.designationForm.reset();
     } else {
