@@ -1,3 +1,4 @@
+using DataEntities;
 using Microsoft.EntityFrameworkCore;
 
 namespace DataCore
@@ -8,5 +9,8 @@ namespace DataCore
     {
 
     }
+
+    public DbSet<Designation> Designations { get; set; }
+
   }
 }
