@@ -12,6 +12,5 @@ namespace DataCore
 
     public DbSet<Designation> Designations { get; set; }
     public DbSet<Department> Departments { get; set; }
-
   }
 }

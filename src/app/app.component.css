@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    height: 97vh;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar
+{
+    width: 220px;
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 1rem;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.sidebar a.active, .sidebar a:hover {
+    background: #34495e;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: #ecf0f1;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    width: 80vw;
+}
+
+.content
+{
+    width: auto;
+    padding: 20px;
+}

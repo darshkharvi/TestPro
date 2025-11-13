@@ -1,28 +1,24 @@
 <div class="container">
-<h1>Department Page</h1>
+  <h1 class="page-title">Department Page</h1>
 
-<form [formGroup]="departmentForm" (ngSubmit)="onSubmit()">
-    <div>
-
-        <label>Title:</label>
-        <input type="text" formControlName="title" />
-            <div style="color:rgb(157, 255, 0);">
-                Title is required
-            </div>
+  <form [formGroup]="departmentForm" (ngSubmit)="onSubmit()" class="department-form">
+    <div class="form-group">
+      <label for="title" class="form-label">Title:</label>
+      <input id="title" type="text" formControlName="title" class="form-control" />
+      <div *ngIf="departmentForm.controls['title'].invalid && departmentForm.controls['title'].touched" class="error-message">
+        Title is required
+      </div>
     </div>
-        
-    <button type="click on this" [disabled]="departmentForm.invalid">Add</button>
 
-</form>
- 
-  <hr/>
- 
-  <h3>Department List</h3>
-<ul>
-<li *ngFor="let d of department">
+    <button type="submit" class="btn-submit" [disabled]="departmentForm.invalid">Add</button>
+  </form>
 
+  <hr />
+
+  <h3 class="list-title">Department List</h3>
+  <ul class="department-list">
+    <li *ngFor="let d of departments" class="department-item">
       {{ d.id }}. <strong>{{ d.title }}</strong>
-</li>
-</ul> >
-</form>
-</div> 
+    </li>
+  </ul>
+</div>

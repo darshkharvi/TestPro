@@ -1,1 +1,21 @@
-<app-designation></app-designation>
+<div class="container">
+    <aside class="sidebar">
+        <h2 style="color: red;">
+           Blockcerts
+        </h2>
+        <nav>
+            <a routerLink="/departments">Departments</a>
+            <a routerLink="/designations">Designations</a>
+        </nav>
+    </aside>
+
+    <main class="main-container">
+        <header class="header">
+            <h2>Header section</h2>
+        </header>
+        <section class="content"> 
+            <router-outlet></router-outlet>
+        </section>
+    </main>
+
+</div>
